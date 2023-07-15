@@ -1,0 +1,7 @@
+C:\Users\nogueirags\Documents\src\gleniox\microservices\PlatformService\obj\Debug\net5.0\PlatformService.csproj.AssemblyReference.cache
+C:\Users\nogueirags\Documents\src\gleniox\microservices\PlatformService\obj\Debug\net5.0\PlatformService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nogueirags\Documents\src\gleniox\microservices\PlatformService\obj\Debug\net5.0\PlatformService.AssemblyInfoInputs.cache
+C:\Users\nogueirags\Documents\src\gleniox\microservices\PlatformService\obj\Debug\net5.0\PlatformService.AssemblyInfo.cs
+C:\Users\nogueirags\Documents\src\gleniox\microservices\PlatformService\obj\Debug\net5.0\PlatformService.csproj.CoreCompileInputs.cache
+C:\Users\nogueirags\Documents\src\gleniox\microservices\PlatformService\obj\Debug\net5.0\PlatformService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nogueirags\Documents\src\gleniox\microservices\PlatformService\obj\Debug\net5.0\PlatformService.MvcApplicationPartsAssemblyInfo.cache
