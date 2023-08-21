@@ -3979,11 +3979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\nogueirags\\Documents\\src\\gleniox\\microservices\\PlatformService\\PlatformService.csproj",
+      "projectUniqueName": "C:\\Users\\nogueirags\\Documents\\src\\gleniox\\microservices\\PlatformService\\PlatformService.csproj",
       "projectName": "PlatformService",
-      "projectPath": "c:\\Users\\nogueirags\\Documents\\src\\gleniox\\microservices\\PlatformService\\PlatformService.csproj",
+      "projectPath": "C:\\Users\\nogueirags\\Documents\\src\\gleniox\\microservices\\PlatformService\\PlatformService.csproj",
       "packagesPath": "C:\\Users\\nogueirags\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\nogueirags\\Documents\\src\\gleniox\\microservices\\PlatformService\\obj\\",
+      "outputPath": "C:\\Users\\nogueirags\\Documents\\src\\gleniox\\microservices\\PlatformService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nogueirags\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3994,7 +3994,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4063,7 +4062,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

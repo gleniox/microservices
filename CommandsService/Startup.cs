@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CommandsService.Data;
 // using CommandsService.AsyncDataServices;
-// using CommandsService.Data;
 // using CommandsService.EventProcessing;
 // using CommandsService.SyncDataServices.Grpc;
 using Microsoft.AspNetCore.Builder;
@@ -21,18 +21,17 @@ namespace CommandsService
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
-
-        
         public void ConfigureServices(IServiceCollection services)
         {
-            // services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMen"));
-            // services.AddScoped<ICommandRepo, CommandRepo>();
+            services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMem"));
+            services.AddScoped<ICommandRepo, CommandRepo>();
             services.AddControllers();
 
             // services.AddHostedService<MessageBusSubscriber>();
@@ -46,7 +45,7 @@ namespace CommandsService
             });
         }
 
-       
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

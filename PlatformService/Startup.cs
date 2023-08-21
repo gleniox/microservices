@@ -33,7 +33,6 @@ namespace PlatformService
             _env = env;
         }
 
-
         public void ConfigureServices(IServiceCollection services)
         {
             if (_env.IsProduction())
