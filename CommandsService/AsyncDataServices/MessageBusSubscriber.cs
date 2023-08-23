@@ -40,7 +40,7 @@ namespace CommandsService.AsyncDataServices
                 exchange: "trigger",
                 routingKey: "");
 
-            Console.WriteLine("--> Listenting on the Message Bus...");
+            Console.WriteLine("--> Listening on the Message Bus...");
 
             _connection.ConnectionShutdown += RabbitMQ_ConnectionShitdown;
         }
