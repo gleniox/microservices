@@ -42,3 +42,5 @@ C:\Users\nogueirags\Documents\src\gleniox\microservices\CommandsService\obj\Debu
 C:\Users\nogueirags\Documents\src\gleniox\microservices\CommandsService\obj\Debug\net7.0\CommandsService.pdb
 C:\Users\nogueirags\Documents\src\gleniox\microservices\CommandsService\obj\Debug\net7.0\CommandsService.genruntimeconfig.cache
 C:\Users\nogueirags\Documents\src\gleniox\microservices\CommandsService\obj\Debug\net7.0\ref\CommandsService.dll
+C:\Users\nogueirags\Documents\src\gleniox\microservices\CommandsService\bin\Debug\net7.0\appsettings.Production.json
+C:\Users\nogueirags\Documents\src\gleniox\microservices\CommandsService\bin\Debug\net7.0\RabbitMQ.Client.dll

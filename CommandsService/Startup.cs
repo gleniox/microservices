@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CommandsService.Data;
+using CommandsService.EventProcessing;
 // using CommandsService.AsyncDataServices;
 // using CommandsService.EventProcessing;
 // using CommandsService.SyncDataServices.Grpc;
@@ -36,7 +37,7 @@ namespace CommandsService
 
             // services.AddHostedService<MessageBusSubscriber>();
 
-            // services.AddSingleton<IEventProcessor, EventProcessor>(); 
+            services.AddSingleton<IEventProcessor, EventProcessor>(); 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             // services.AddScoped<IPlatformDataClient, PlatformDataClient>();
             services.AddSwaggerGen(c =>
