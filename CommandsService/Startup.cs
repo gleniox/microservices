@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CommandsService.AsyncDataServices;
 using CommandsService.Data;
 using CommandsService.EventProcessing;
 // using CommandsService.AsyncDataServices;
@@ -35,7 +36,7 @@ namespace CommandsService
             services.AddScoped<ICommandRepo, CommandRepo>();
             services.AddControllers();
 
-            // services.AddHostedService<MessageBusSubscriber>();
+            services.AddHostedService<MessageBusSubscriber>();
 
             services.AddSingleton<IEventProcessor, EventProcessor>(); 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
