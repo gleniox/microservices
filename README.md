@@ -3,4 +3,6 @@
 
 ![alt text](https://github.com/gleniox/microservices/blob/main/microservices.png?raw=true)
 
-(Image source: Les Jackson)
+![alt text](https://github.com/gleniox/microservices/blob/main/SolutionArchitecture.png?raw=true)
+
+(Images source: Les Jackson)
